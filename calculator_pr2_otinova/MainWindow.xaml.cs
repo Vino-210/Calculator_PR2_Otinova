@@ -150,7 +150,7 @@ namespace otinova_pr2
                     i++;
                 }
             }
-
+            /*
             for (int i = 0; i < expr.Length - 1; i++)
             {
                 if (expr[i] == '(' && expr[i + 1] == '-')
@@ -164,7 +164,7 @@ namespace otinova_pr2
             {
                 expr = "0" + expr;
             }
-
+            */
             while (expr.Contains('('))
             {
                 int lastOpen = expr.LastIndexOf('(');
